@@ -21,6 +21,8 @@ namespace NanoFxHello
         private static GpioController _gpio;
         private static void LEDon()
         {
+            // This code is rubish.. but it works and I'm just looking for a feedback loop. 
+            // Time to refactor! 
             _gpio = new GpioController();
             GpioPin led = _gpio.OpenPin(2, PinMode.Output);
             led.Write(PinValue.Low);
