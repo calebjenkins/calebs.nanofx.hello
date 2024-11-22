@@ -1,4 +1,4 @@
-#Nanoframework Hello World
+# Nanoframework Hello World
 The goal of this project is to meet the needs of the majority of IoT projects. The basic flow or set of features for this project are as follows: 
 - If a WiFi is not configured (or preset) create our own AP
 - Host a page that is accesable via the AP for configuration / settings
